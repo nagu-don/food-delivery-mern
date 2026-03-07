@@ -26,3 +26,28 @@
 .food-item-name-rating img{
     width:70px;
 }
+.food-item-img-container{
+    position: relative;
+}
+.food-item-img-container .add{
+    width:35px;
+    position: absolute;
+    bottom:20px;
+    right:15px;
+    cursor:pointer;
+    border-radius:50%;
+}
+.food-item-count{
+    position:absolute;
+    bottom:15px;
+    right:15px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:6px;
+    border-radius: 50px;
+    background-color: white;
+}
+.food-item-count img{
+    width:30px;
+}
