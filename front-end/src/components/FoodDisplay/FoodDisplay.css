@@ -1,0 +1,16 @@
+.food-display{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:30px;
+}
+.food-display h2{
+    font-size:max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top:15px;
+    margin-bottom:15px;
+    gap:30px;
+    row-gap: 50px;
+}
